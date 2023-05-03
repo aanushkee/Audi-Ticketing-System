@@ -24,9 +24,13 @@ Add an environment variable pointing to the lib directory of the runtime in .bas
 export PATH_TO_FX=path/to/javafx-sdk-17/lib
 
 In VS Code settings.json file in the project directory, add the path to lib folder to
-referencedLibraries like this: { "java.project.sourcePaths": ["src"], "java.project.outputPath":
+referencedLibraries like this:
+
+```bash
+{ "java.project.sourcePaths": ["src"], "java.project.outputPath":
 "bin", "java.project.referencedLibraries": [ "lib/**/*.jar",
 "/home/aviralomar/development/sdk/javafx-sdk-17.0.1/lib/*.jar" ] }
+```
 
 Install following: 
 ```bash
